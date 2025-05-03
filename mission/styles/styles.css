@@ -6,14 +6,29 @@ body {
     margin-top: 50px;
 }
 
+.dark {
+    background-color: #333;
+}
+
 h1 {
     text-align: center;
 }
 h6 {
     display: block;
     text-align: center;
-    color: #5DA9DD;
+    color: #006EB6;
 }
+
+.dark h6 {
+    color: #33B3D1;
+}
+.dark p {
+    color: white;
+}
+.dark h1 {
+    color: white;
+}
+
 hr {
     margin-top: -20px;
     color: gray;
