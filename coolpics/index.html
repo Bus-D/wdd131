@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="A website built to mimic one given for the purpose of learning more
+    <meta name="description" content="A website built to mimic one given for the purpose of learning more
     html, css, and javascript.">
     <title>Cool Pics</title>
     <link rel="stylesheet" href="styles/coolpics.css">
@@ -26,35 +26,41 @@
         <h2>Current Work</h2>
         <section class="gallery">
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
             <figure>
-                <img src="images/norris-sm.jpeg" alt="Small Pic of the Norris Gyser">
+                <img class="small-img" src="images/norris-sm.jpeg" alt="Small Pic of the Norris Geyser">
             </figure>
         </section>
-    </main>
+        <section id="viewer" class="hidden">
+            <div class="viewer-container">
+                <img id="thumbnail" src="images/norris-full.jpeg" alt="Big pic of the Norris Geyser">
+                <button id="close-button" aria-label="close-button">&times;</button>
+            </div>
 
+        </section>
+    </main>
     <footer>
         <p>©2023 Not a real site 😀</p>
     </footer>
