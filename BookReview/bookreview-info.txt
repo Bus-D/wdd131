@@ -1,0 +1,36 @@
+1. Purpose Statement
+    The purpose of the book review site is a website that will provide
+    a place to give reviews on books read. Users will need to be able to report
+    on plot, characters, age appropriateness, overall quality.
+    The audience is mainly the clients family, but also whoever wants to use it to 
+    give reviews on books they read. Needs to be useable by adults, young adults and children
+
+2. Audience Hopes
+    The user will come to the site with the expectation that they will be able to 
+    input a book title, if it is not there already, and fill out some sort of form
+    that will enable them to leave the review. Needs to have a slider or /10 type system
+    as well as needing a text box that can leave a written review
+
+3. Content
+    As outlined in the last point, the audience will need some sort of way to input a book or interact
+    with exsiting books. The main way of interacting with the site will be a plus button that will allow 
+    the user to add a book.
+
+    Adding a book 
+        When adding a book the user will need to be able at least the author and title. Optionally, they can
+        add the page length of the book, how long it took them to read, and if they would recommend it or read
+        it again. 
+        There also needs to be a way to check if the book has already been added. So maybe have a screen that
+        first pops up that has them input the book title and author, if it is already added it will prompt the
+        user to change to the exsiting book entry. The entry button will then proceed to the additional info
+
+    Reviewing a book    
+        After a book is added, the user will be prompted to add a review in the different sections mentioned
+        in the purpose statement. There will be a slider or /10 rating system, as well as a text box for 
+        each section. Nothing here will be needed to proceed. If one desiers to add just a slider or rating
+        they can do that, or if they want to just add a text review they can do that as well
+
+    Searching
+        There will need ot be a way to search for a book. This will just be a simple search bar
+
+    

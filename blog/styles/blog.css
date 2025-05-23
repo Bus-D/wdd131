@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* General Styles */
+:root {
+	--primary-color: #AF1B3F;
+    --secondary-color: #473144;
+    --accent-color: #EFC69B;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--secondary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lora, Impact, serif;
+    color: var(--primary-color);
+}
+
+.book-info h3 {
+    color: var(--secondary-color);
+}
+
+#title {
+    color: var(--secondary-color);
+}
+
+header, body, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+
+#maincontent {
+    top: -40px;
+}
+
+#maincontent:focus {
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+}
+
+/* Nav Bar */
+.header-grid {
+    display: flex;;
+    justify-content: end;
+    justify-items: end;
+    border-top: 2px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.header-grid li {
+    display: inline;
+    margin: 20px;
+}
+
+/* Body Styles */
+
+/* Main Grid */
+.main-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* left = content, right = filter */
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Content Column (left) */
+.content-area {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.book-info {
+    border-right: 1px solid var(--accent-color);
+}
+
+/* Each book row */
+.book-entry {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Info | Review */
+    gap: 30px;
+}
+
+/* Filter column (right) */
+.filter {
+    border: 1px solid var(--accent-color);
+    padding: 1rem;
+    height: 100%;
+    align-self: stretch;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 153px;
+}
