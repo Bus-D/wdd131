@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, body, footer {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -33,6 +33,10 @@ header, body, footer {
 
 #maincontent {
     top: -40px;
+}
+
+.skiptocontent {
+    display: none;
 }
 
 #maincontent:focus {
@@ -81,19 +85,38 @@ h1 {
 }
 
 .book-info {
-    border-right: 1px solid var(--accent-color);
+    border-right: 2px solid var(--accent-color);
+    padding-right: 10px;
+}
+
+.book-info p {
+    line-height: .8;
+}
+
+.sideinfo {
+    font-size: .9rem;
 }
 
 /* Each book row */
 .book-entry {
     display: grid;
+    text-align: right;
     grid-template-columns: 1fr 2fr; /* Info | Review */
     gap: 30px;
 }
 
+.book-title {
+    text-align: left;
+    margin-top: 0.9rem;
+}
+
+.description {
+    text-align: left;
+}
+
 /* Filter column (right) */
 .filter {
-    border: 1px solid var(--accent-color);
+    border: 2px solid var(--accent-color);
     padding: 1rem;
     height: 100%;
     align-self: stretch;
