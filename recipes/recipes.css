@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Global Styles */
+ :root {
+ --primary-color: #1B98E0;
+ --secondary-color: #59c3c3;
+ --text-dark: #333;
+ --text-light: #ebebeb;
+ --primary-font: Arial, Helvetica,sans-serif;
+ --secondary-font: "Shantell Sans";
+ }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--secondary-font);
+}
+
+p {
+    font-family: var(--primary-font)
+}
+
+img {
+    max-width: 100%;
+}
+
+/* End Global Styles */
+
+/* Header Styles */
+header {
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.branding {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.logo {
+  width: 75px;
+  height: 75px; 
+  align-content: flex-end;
+}
+
+.title {
+    margin-bottom: -5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px; /* or flex-grow if you want it responsive */
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button {
+  width: 24px;
+  height: 24px;
+}
+
+.title {
+    align-content: end;
+}
+/* End Header Styles */
+
+/* Main Styles */
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto 40px auto;
+
+}
+
+.food-pic {
+    border-radius: 10px;;
+}
+
+.food-type {
+    display: inline-block;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.dish {
+    color: var(--primary-color);
+}
+/* End Main Styles */
+
+/* Footer Styles */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.attribution {
+    font-size: 0.6em;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block; 
+}
+
+/* End Footer Styles */
+
+@media screen and (min-width: 600px) {
+  .recipe-container {
+    flex-direction: row; /* image left, content right */
+    align-items: flex-start;
+  }
+
+  .food-pic {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+
+  .recipe-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    flex: 1;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+    
+}
