@@ -8,7 +8,11 @@
  --text-light: #ebebeb;
  --primary-font: Arial, Helvetica,sans-serif;
  --secondary-font: "Shantell Sans";
- }
+}
+
+.site-wrapper {
+  max-width: 960px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--secondary-font);
@@ -166,8 +170,4 @@ footer {
   .description {
     margin-top: 10px;
   }
-}
-
-@media screen and (max-width: 960px) {
-    
 }
