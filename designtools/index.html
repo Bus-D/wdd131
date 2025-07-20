@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figma Deep Dive</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <a href="site-plan.html">Site-plan</a>
+    <header>
+        <div class="nav-bar">
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="Site logo"></a>
+            <button class="hamburger" aria-label="Toggle navigation">
+                ☰
+            </button>
+            <nav class="nav-links">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                    <li><a href="process.html">Process</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="purpose-grid">
+            <h1>Purpose</h1>
+
+            <div class="image-holder">
+                <img class="home-img" src="img/figma-use.png" alt="Figma screenshot" id="clickable-img">
+                <cite>Image from <a href="https://www.figma.com/design/">figma.com</a></cite>
+            </div>
+
+            <div id="lightbox" class="hidden">
+                <span class="close-btn">&times;</span>
+                <img src="img/figma-use.png" alt="Full Size" id="lightbox-img">
+            </div>
+
+            <p class="home-text">
+                When thinking of this project I didn't know what I wanted to do. I asked myself "what can showcase my progess so far in learning html, css, and javascript?"<br><br>
+                As of the making of this project, I recently began the Google UX Certification course. I wanted to do this certification to both boost and bolster my schooling. I wanted to be able to not only learn the process and thoughts behind UX design so in my classes I can focus more on the designing, not on why the designing works, but also I wanted to learn how to conduct the whole process of UX design so I can begin doing freelance work.<br><br>
+                During my schooling I have realized that there are many different ways to use the tools within the Adobe suite, and some of those uses are often overlooked. Because of this, knowing that I would be learning Figma both in the certification course and in my upcoming classes I wanted to do a deep dive into Figma's main tools. I want to be able to learn not only the basic purposes of the main tools used, but I also wanted to be able to learn some of the hidden or not as commonly used uses of these tools. My intent in doing so is to be able to make sure I use Figma to its fullest potential so I can make the best designs possible with it.
+            </p>
+
+            <div class="home-text">
+                <h1>What is Figma?</h1>
+                <p class="figma-text">
+                Figma began being developed by Dylan Field and Evan Wallace in 2012 with the original object to enable "anyone to be creative by creating free, simple creative tools in a browser."<a class="citation" href="https://en.wikipedia.org/wiki/Figma#History" target="blank"><sup>1</sup></a> Figma was first released to the public on September 27, 2016.<br><br>
+                Today Figma "is a powerful, collaborative design tool for teams."<a class="citation" href="https://www.figma.com/design/"><sup>2</sup></a> Its purpose is to enable teams to work on a document together in real time. It allows for quick, easy prototyping, even allowing branching off to try ideas without impacting the final design. When looking for a program that offers versatile UX/UI creation, Figma is an option that is hard to beat.
+                </p>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer>
+        <a href="site-plan.html">Site-plan</a>
+    </footer>
+    
 </body>
 </html>
